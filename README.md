@@ -11,7 +11,10 @@ A simple Movie API built with Django, Bootstrap, and SQLite.
 ## API Endpoints
 
 - **List Movies**: `/api/movies/` (GET)
-- **Create Movie**: `/api/movies/create/` (POST)
-- **Retrieve Movie**: `/api/movies/<id>/` (GET)
-- **Update Movie**: `/api/movies/<id>/update/` (PUT/PATCH)
-- **Delete Movie**: `/api/movies/<id>/delete/` (DELETE)
+  - Retrieve a list of movies.
+
+- **Create Movie**: `/api/movies/` (POST)
+  - Create a new movie.
+
+- **Retrieve, Update, Delete Movie**: `/api/movies/<id>/` (GET, PUT/PATCH, DELETE)
+  - Retrieve, update, or delete a specific movie identified by `<id>`.
